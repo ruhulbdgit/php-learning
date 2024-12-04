@@ -8,6 +8,7 @@
 </head>
 
 <body>
+    <!-- Its a comment for html line -->
     <h1> Hello world!</h1>
 
     <?php
