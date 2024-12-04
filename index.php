@@ -12,8 +12,15 @@
     <h1> Hello world!</h1>
 
     <?php
+
     //ist test with php
-    echo 'Hello World!'; ?>
+    echo 'Hello World!';
+    echo '<br>';
+    //variable
+    $x = 5;
+    $y = 'test';
+    echo $x . $y;
+    ?>
 
 
 </body>
