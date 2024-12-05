@@ -20,6 +20,25 @@
     $x = 5;
     $y = 'test';
     echo $x . $y;
+
+    //test vardump();
+    echo '<br>';
+    $x = "Hello !";
+    $y = ' Worldd!';
+
+    var_dump($x);
+    echo "<br>";
+    var_dump($y);
+
+    //To concatenate, or combine, two strings we can use the "." operator
+    $a = 'hello';
+    $b = 'world';
+    echo "<br>";
+    echo $a . $b;
+
+    //when i concatenate with ths space betwen two word
+    echo "<br>";
+    echo $a . " " . $b;
     ?>
 
 
