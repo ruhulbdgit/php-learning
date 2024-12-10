@@ -92,6 +92,49 @@
     foreach ($associtveArry_test as $hh => $yy) {
         echo "$hh : $yy" . '<br>';
     }
+    //Again Test with array show all data in index array
+    $wasiIndex = ["BismillahOne", "BismillahTwo", "BismillahThree"];
+    foreach ($wasiIndex as $index) {
+        echo $index . '<br>';
+    }
+    //fix show in data from index
+    echo $wasiIndex['0'] . '<br>';
+    //function 
+    function myFunction()
+    {
+        echo "Testing Function";
+    }
+    myFunction();
+    echo "<br>";
+
+    ///test Function
+    function testmyFunction()
+    {
+        echo "Test Function" . '<br>';
+    }
+    testmyFunction();
+
+    //Function with One Arguments Passing
+    function myFunctionArguments($fTest)
+    {
+        echo $fTest;
+    }
+    myFunctionArguments('Argumrnts Test');
+    //two /More Arguments pass
+    function moreArguments($gg, $ggg)
+    {
+        echo $gg . '' . $ggg . '<br>';
+    }
+    moreArguments('Ruhul', 'Amin');
+
+    //we can set a default value in an arguments
+
+    function defaultArguments($ii, $iii = '')
+    {
+        echo $ii . '' . $iii . '<br>';
+    }
+    defaultArguments('Wasi');
+
 
     ?>
 </body>
